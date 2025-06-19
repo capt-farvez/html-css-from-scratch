@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Video Image Map</title>
+</head>
+<body>
+    <h1>HTML Audio</h1>
+    <audio src="song1.mp3" type="audio/mp3" controls></audio>
+    <br>
+    <audio controls>
+        <source src="song1.mp3" type="audio/mp3" />
+        <p>Browser doesnt support audio</p>
+    </audio>
+
+    <br> <br> <br>
+    <hr>
+    <h1>HTML Video</h1>
+    <video src="video1.mov" type="video/quicktime" controls height="300"></video>
+    <hr>
+
+    <h1>Image Map</h1>
+    <img src="computer.jpg" alt="Computer" usemap="#computermap" />
+    <map name="computermap">
+        <area shape="rect" coords="34, 44, 270, 350" href="computer.html" alt="computer">
+        <area shape="rect" coords="290, 172 , 333, 250" href="phone.html" alt="phone">
+        <area shape="circle" coords="337, 300, 45" href="teacup.html" alt="teacup">
+    </map>
+
+</body>
+</html>
