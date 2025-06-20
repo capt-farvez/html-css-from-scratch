@@ -1,0 +1,83 @@
+body {
+    font-family:'Michroma', sans-serif ;
+    border: 3px solid red;
+    /* background-color: coral; */
+    /* background-image: url(' ../images/hero.jpg ');
+    background-size: 200px; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; */
+    
+    /* Linear Gradient */
+    background: linear-gradient(to bottom, lightblue, darkblue);
+    background: linear-gradient(to left, lightgreen, darkblue);
+}
+
+/* Type selectors */
+h2 {
+    color:red;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* regular link */
+a {
+    color:blueviolet;
+    text-decoration: none;
+}
+/* hover */
+a:hover {
+    color: red;
+}
+
+/* active state */
+a:active {
+    background: greenyellow;
+}
+/* focus  */
+a:focus{
+    background-color: brown;
+}
+/* visited */
+a:visited {
+    color: grey;
+}
+
+p {
+    color:rgb(47, 0, 255);
+    font-size:1;
+}
+
+/* class selectors */
+.sporty {
+    color:aqua;
+}
+
+.casual {
+    color:green;
+}
+
+.formal{
+    color:black;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* ID Selectors */
+#container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 100px;
+}
+
+/* multiple selectors */
+.sporty, .casual {
+    font-size: 30px;
+}
+
+/* descedant style */
+/* #container p {
+    background-color: beige;
+} */
