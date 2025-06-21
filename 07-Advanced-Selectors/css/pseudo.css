@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgray;
+    margin: 1rem;
+}
+
+h1::first-letter {
+    font-size: 50px;
+}
+
+.main {
+    padding: 1rem;
+    margin: 1rem auto;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+p::first-line {
+    color: blue;
+    font-size: 1.5rem;
+}
+
+p::selection {
+    background-color: aqua;
+    color: red;
+}
+
+input[required] {
+    border-color:red;
+}
+
+input::placeholder {
+    color: rgb(143, 111, 70);
+    font-weight: bold;
+}
+
+/* input{
+    border: none;
+} */
+
+/* li::marker {
+    content: '** ';
+} */
+
+/* Pseuodo Classess */
+
+.container {
+    margin: 2rem;
+}
+
+ul li:first-child {
+    background-color: blue;
+}
+
+ul li:last-child {
+    background-color: blue;
+}
+
+ul li:nth-child(odd){
+    background-color: aqua;
+}
+ul li:nth-child(even){
+    background-color: bisque;
+}
+
+ul li:only-child{
+    margin-top: 50px;
+    background-color: black;
+    color:white;
+}
+h2::before{
+    content:'Hello ';
+}
+h2::after {
+    content:'!';
+}
+
+label.is-required::after {
+    content:' * ';
+    color:red;
+    font-weight: bold;
+}
