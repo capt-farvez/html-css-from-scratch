@@ -26,3 +26,18 @@ This repository documents my learning journey through the [Modern HTML & CSS Fro
 ![Mopvile View](Screenshots/Project2/image-4.png)
 ![Mobile View](Screenshots/Project2/image-3.png)
 ![Mobile View](Screenshots/Project2/image-5.png)
+
+### 3. Tutor Website
+- Live Link: [Go to the Site](https://tutor-web-site.netlify.app/)
+- Source Code: [Github](https://github.com/capt-farvez/html-css-from-scratch/tree/main/Projects/04-Tutor-Website)
+
+![Desktop View](Screenshots/Tutor/image.png)
+![Desktop View](Screenshots/Tutor/image-1.png)
+![Desktop View](Screenshots/Tutor/image-2.png)
+![Desktop View](Screenshots/Tutor/image-3.png)
+![Desktop View](Screenshots/Tutor/image-4.png)
+![Mobile View](Screenshots/Tutor/image-5.png)
+![Mobile View](Screenshots/Tutor/image-6.png)
+![Mobile View](Screenshots/Tutor/image-7.png)
+![Mobile View](Screenshots/Tutor/image-8.png)
+![Mobile View](Screenshots/Tutor/image-9.png)
