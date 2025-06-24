@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: url('../images/background.jpeg') center center/cover;
+    color: #333;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #007acc;
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+
+/* Top Course Code Button */
+.top-button {
+    text-align: center;
+    padding: 1rem 1rem;
+}
+
+.course-link-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+
+.course-link-btn:hover {
+    background-color: #218838;
+}
+
+/* ✅ Project Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin: 2rem auto;
+    padding: 0 2rem 2rem;
+}
+
+.card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card h2 {
+    margin-bottom: 0.5rem;
+    color: #007acc;
+}
+
+.card p {
+    flex: 1;
+    margin-bottom: 1rem;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    border-bottom: #333;
+    border-radius: 6px;
+    border: 1px solid #007acc; 
+    margin-bottom: 1rem; 
+    transition: transform 0.3s ease;
+}
+
+.card-img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+     
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 14px;
+    margin: 5px 5px 0 0;
+    background-color: #007acc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #005f99;
+}
+
+/*  Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* Media Quries */
+@media (max-width: 768px) {
+
+    header {
+        text-align: center;
+        padding: 2rem;
+        margin-bottom: auto;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+        color: #007acc;
+    }
+
+    header p {
+        font-size: 1.1rem;
+    }
+
+    .course-link-btn {
+        font-size: 1rem;
+    }
+
+    .grid-container {
+        margin-top: 2rem;
+        grid-template-columns: 1fr;
+        padding: 0 1rem;
+    }
+
+    .card h2 {
+        font-size: 1.5rem;
+    }
+}
