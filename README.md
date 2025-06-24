@@ -11,15 +11,15 @@ This repository documents my learning journey through the [Modern HTML & CSS Fro
 
 ## Projects
 ### 1. Bono Landing Form (Webapp)
-- Live Link: [Go To the website](https://app-bono.netlify.app/)
-- Source Code: [Visit Github](https://github.com/capt-farvez/html-css-from-scratch/tree/main/Projects/01-Bono-Landing-Form)
+- [Live Demo](https://app-bono.netlify.app/)
+- [Github - Source Code](https://github.com/capt-farvez/html-css-from-scratch/tree/main/Projects/01-Bono-Landing-Form)
 
 ![Project 1- PC View](Screenshots/image-Project1-1.png)
 ![Project 1- Mobile View](Screenshots/image-Project1-2.png)
 
 ### 2. Lumina Creative Website
-- Live link: [Go to the site](https://app-lumina-creative.netlify.app/)
-- Source Code: [Visit Github](https://github.com/capt-farvez/html-css-from-scratch/tree/main/Projects/02-Lumina-Creative-Website)
+- [Live Demo](https://app-lumina-creative.netlify.app/)
+- [Github - Source Code](https://github.com/capt-farvez/html-css-from-scratch/tree/main/Projects/02-Lumina-Creative-Website)
 ![Desktop View](Screenshots/Project2/image.png)
 ![Desktop View](Screenshots/Project2/image-1.png)
 ![Desktop View](Screenshots/Project2/image-2.png)
@@ -28,8 +28,8 @@ This repository documents my learning journey through the [Modern HTML & CSS Fro
 ![Mobile View](Screenshots/Project2/image-5.png)
 
 ### 3. Tutor Website
-- Live Link: [Go to the Site](https://tutor-web-site.netlify.app/)
-- Source Code: [Github](https://github.com/capt-farvez/html-css-from-scratch/tree/main/Projects/04-Tutor-Website)
+- [Live Demo](https://tutor-web-site.netlify.app/)
+- [Github- Source Code](https://github.com/capt-farvez/html-css-from-scratch/tree/main/Projects/04-Tutor-Website)
 
 ![Desktop View](Screenshots/Tutor/image.png)
 ![Desktop View](Screenshots/Tutor/image-1.png)
@@ -43,5 +43,14 @@ This repository documents my learning journey through the [Modern HTML & CSS Fro
 ![Mobile View](Screenshots/Tutor/image-9.png)
 
 ### 4. Leno Website
-- Live Link: [Click here](https://leno-web-site.netlify.app/)
-- Source Code: [Github](https://github.com/capt-farvez/html-css-from-scratch/tree/main/Projects/05-Leno-Website)
+- [Live Demo](https://leno-web-site.netlify.app/)
+- [Github - Source Code](https://github.com/capt-farvez/html-css-from-scratch/tree/main/Projects/05-Leno-Website)
+
+![Desktop View](./Screenshots/Leno/image.png)
+![Desktop View](./Screenshots/Leno/image-1.png)
+![Desktop View](./Screenshots/Leno/image-2.png)
+![Desktop View](./Screenshots/Leno/image-3.png)
+![Mobile View](./Screenshots/Leno/image-4.png)
+![Mobile View](./Screenshots/Leno/image-5.png)
+![Mobile View](./Screenshots/Leno/image-6.png)
+![Mobile View](./Screenshots/Leno/image-7.png)
